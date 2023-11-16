@@ -1,0 +1,160 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Bold', sans-serif;
+  }
+  
+
+
+
+.app {
+  height: 100vh;
+}
+nav{
+  height: 13vh;
+  width: 100vw;
+  background-color: #272727;
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 20vh;
+  width: 15vw;
+  padding-left: 2rem;
+  padding-top: 3rem;
+}
+.text:hover:hover {
+  transform: scale(1.05);
+}
+ul {
+  list-style-type: none;
+
+}
+
+li {
+  display: inline;
+  font-size: 1.1rem;
+}
+
+li a {
+  text-decoration: none;
+color: #a9a9a9;
+  padding-right: 8vw;
+}
+
+
+
+body {
+  background-color: #1C1C1C;
+}
+
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  padding: 50px;
+  color: #a9a9a9;
+ }
+ 
+ .home-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+ }
+ 
+ .home-container h1 {
+  font-size: 24px;
+  margin: 10px 0;
+ }
+ 
+ .home-container p {
+  font-size: 16px;
+  text-align: justify;
+ }
+ 
+ .additional-info {
+  margin-left: 20px;
+ }
+ 
+ .additional-info h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+ }
+ 
+ .additional-info p {
+  font-size: 14px;
+  margin-bottom: 5px;
+ }
+
+ 
+ .social-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+  margin-top: 20px;
+ }
+ 
+ .social-icons img {
+  width: 32px;
+  height: 32px;
+ }
+
+
+ .contact-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #343434;
+  border-radius: 5px;
+}
+
+.contact-container h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #444444;
+}
+
+.contact-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-container label {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #a9a9a9;
+}
+
+.contact-container input, .contact-container textarea {
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+  color: #666666;
+}
+
+.contact-container textarea {
+  resize: none;
+  height: 100px;
+}
+
+.contact-container button {
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #242424;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.contact-container button:hover {
+  background-color: #5a2121;
+}
