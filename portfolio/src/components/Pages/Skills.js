@@ -1,42 +1,21 @@
 import React from 'react';
 
-const Experience = () => {
-  const experience = [
-    {
-      title: "HTML/CSS",
-      description: "Proficient in creating responsive web designs.",
-      logo: "link-naar-html-css-logo.png", // Voeg het pad naar het HTML/CSS-logo toe
-    },
-    {
-      title: "JavaScript",
-      description: "Skilled in front-end and back-end development.",
-      logo: "link-naar-js-logo.png", // Voeg het pad naar het JavaScript-logo toe
-    },
-    {
-      title: "React",
-      description: "Experienced in building interactive web applications.",
-      logo: "link-naar-react-logo.png", // Voeg het pad naar het React-logo toe
-    },
-  ];
-
-  return (
-    <div className="experience-container">
-      <h2>Experience</h2>
-      <ul>
-        {experience.map((item, index) => (
-          <li key={index}>
-            <div className="experience-item">
-              <img className="experience-logo" src={item.logo} alt={`${item.title} Logo`} />
-              <div className="experience-text">
-                <h3>{item.title}</h3>
-                <p>{item.description}</p>
-              </div>
+const Skills = () => {
+    return (
+        <div className="skills">
+            <h1>Skills</h1>
+            <div className="skill-row">
+                <img className="skill-logo" src="javascript.png" alt="JavaScript" />
+                <img className="skill-logo" src="html.png" alt="HTML" />
+                <img className="skill-logo" src="csslogo.png" alt="CSS" />
             </div>
-          </li>
-        ))}
-      </ul>
-    </div>
-  );
+            <div className="skill-row">
+                <img className="skill-logo" src="react.png" alt="React" />
+                <img className="skill-logo" src="bootstraplogo.png" alt="Bootstrap" />
+                <img className="skill-logo" src="figmalogo.webp" alt="Figma" />
+            </div>
+        </div>
+    );
 };
 
-export default Experience;
+export default Skills;
